@@ -15,5 +15,17 @@
     
 
 <br><h4> Some Screen-Shots : </h4>
+<li>Login page: </li>
+ <img src="https://github.com/suyashdamle/DBMS_assignments/blob/master/Integrated_Assignment_Management_WebVersion/screenshots/Screenshot from 2018-03-26 22-58-55.png">
+ <br>
+ <li>Main Interface: </li>
  <img src="https://github.com/suyashdamle/DBMS_assignments/blob/master/Integrated_Assignment_Management_WebVersion/screenshots/Screenshot from 2018-03-26 22-58-21.png">
  <br>
+ <li>While giving Assignment: </li>
+ <img src="https://github.com/suyashdamle/DBMS_assignments/blob/master/Integrated_Assignment_Management_WebVersion/screenshots/Screenshot from 2018-03-26 22-59-27.png">
+ <br>
+
+
+The work had to be completed in a short interval - given this constraint and the absence of experience in front-end development, the entire project is still quite crude and lacks eye-candy effects - but works :)
+
+
