@@ -15,4 +15,5 @@
     
 
 <br><h4> Some Screen-Shots : </h4>
- ![alt text](https://github.com/suyashdamle/DBMS_assignments/new/master/Integrated_Assignment_Management_WebVersion/screenshots)
+ <img src="https://github.com/suyashdamle/DBMS_assignments/blob/master/Integrated_Assignment_Management_WebVersion/screenshots/Screenshot from 2018-03-26 22-58-21.png">
+ <br>
