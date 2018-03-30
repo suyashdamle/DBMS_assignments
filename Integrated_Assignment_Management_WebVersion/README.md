@@ -1,7 +1,7 @@
 <img src ="https://github.com/suyashdamle/DBMS_assignments/blob/master/Integrated_Assignment_Management_WebVersion/viewlogo.png" >
 <h1>Integrated Assignment/ Quiz Schedule Management System- "UNLOAD-ME" </h1>
 <br>
-<h3>A very basic web app that provides the instructors and students of an institute with a unified system to manage assignment - related tasks.</h3><br>
+<h3>A very basic web app that provides the instructors and students of an institute a unified system to manage assignment - related tasks.</h3><br>
 <li>This project was motivated by the fact that in most institutes, the instructors have no idea of the extent of work - pressure on students due to other assignments whent they are giving out their own assignments/ declaring quizes</li><br>
 <li>Unload-Me gives an easy-to-use, interactive and intuitive interface to both the parties to manage the teaching in healthy way</li><br>
 <h4> Features : </h4>
