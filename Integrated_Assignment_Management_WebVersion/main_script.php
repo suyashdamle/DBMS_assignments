@@ -1,38 +1,11 @@
 <html>
 <head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
 <style>
-.btn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;	
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-
-
-}
+body{
+margin: 25px 50px 75px 100px}
 </style>
 </head>
 
@@ -83,6 +56,8 @@ $result = mysqli_query($con, $query);
 $get = mysqli_fetch_assoc($result);
 $numResults = mysqli_num_rows($result);
 
+
+
 if($numResults == 1)
 {			
 	$name_of_user=$get["name"];
@@ -97,15 +72,20 @@ if($numResults == 1)
 			echo "<input type='hidden' name='user_id' value=$username />";
 			echo "<input type='hidden' name='user_type' value=$user_type />";
 			echo "<input type='hidden' name='name_of_user' value=$name_of_user />";
-			echo "<select name='course_id'>'";
+			echo "<label for='course_id'>Select the Course-id  </label>";
+			echo "<div class='dropdown'>";
+			echo "<select name='course_id' class='btn btn-primary btn-lg dropdown-toggle' type='button' data-toggle='dropdown' >";
 			while ($get=mysqli_fetch_assoc($result)) {
     			echo "<option value= '".$get["cid"]."'>".$get["cid"]." - ".$get["name"]." </option><br><br>";
     		}
     		echo "</select>";
-  			echo "<input type='submit'>";
+			echo "</div>";		
+			echo "<br><br>";
+  			echo "<input type='submit'  class='btn-lg btn-success' type='button'>";
 			echo "</form>";
 			echo "</html>";
 			//include 'calendar.html';
+
 		}
 		if($user_type=='Student'){
 			header("Location: calendar.html?user_id=".$username."&user_type=".$user_type."&name_of_user=".$name_of_user);
