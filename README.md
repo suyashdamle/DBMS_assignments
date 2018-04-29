@@ -1,4 +1,4 @@
-<img src ="https://github.com/suyashdamle/DBMS_assignments/blob/master/Integrated_Assignment_Management_WebVersion/viewlogo.png" >
+<img src="https://github.com/suyashdamle/Integrated_Assignment_Management_WebVersion/blob/master/viewlogo.png">
 <h1>Integrated Assignment/ Quiz Schedule Management System- "UNLOAD-ME" </h1>
 <br>
 <h3>A very basic web app that provides the instructors and students of an institute a unified system to manage assignment - related tasks.</h3><br>
@@ -16,13 +16,13 @@
 
 <br><h4> Some Screen-Shots : </h4>
 <li>Login page: </li>
- <img src="https://github.com/suyashdamle/DBMS_assignments/blob/master/Integrated_Assignment_Management_WebVersion/screenshots/Screenshot from 2018-03-26 22-58-55.png">
+ <img src="https://github.com/suyashdamle/Integrated_Assignment_Management_WebVersion/blob/master/screenshots/Screenshot from 2018-03-26 22-58-55.png">
  <br>
  <li>Main Interface: </li>
- <img src="https://github.com/suyashdamle/DBMS_assignments/blob/master/Integrated_Assignment_Management_WebVersion/screenshots/Screenshot from 2018-03-26 22-58-21.png">
+ <img src="https://github.com/suyashdamle/Integrated_Assignment_Management_WebVersion/blob/master/screenshots/Screenshot from 2018-03-26 22-58-21.png">
  <br>
  <li>While giving Assignment: </li>
- <img src="https://github.com/suyashdamle/DBMS_assignments/blob/master/Integrated_Assignment_Management_WebVersion/screenshots/Screenshot from 2018-03-26 22-59-27.png">
+ <img src="https://github.com/suyashdamle/Integrated_Assignment_Management_WebVersion/blob/master/screenshots/Screenshot from 2018-03-26 22-59-27.png">
  <br>
 
 
